@@ -1,0 +1,23 @@
+@import "src/styles/colors";
+
+.button {
+  cursor: pointer;
+  background-color: $additional;
+  border-radius: 10px;
+  color: $accent;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 30px;
+  transition: background-color ease-in-out 0.3s;
+  width: fit-content;
+
+  &:hover {
+    color: $secondary-text-color;
+    background-color: #fff;
+  }
+
+  &--wide{
+    width: 100%;
+    padding: 10px;
+  }
+}

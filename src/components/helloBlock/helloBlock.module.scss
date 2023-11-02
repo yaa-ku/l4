@@ -1,0 +1,18 @@
+@import 'src/styles/mixins';
+
+.img{
+  aspect-ratio: 1680/1050;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.hello-block{
+  padding: 30px;
+  @include flex-column(30px);
+  align-items: center;
+
+  @media screen and (max-width: 500px) {
+    padding: 10px;
+  }
+}

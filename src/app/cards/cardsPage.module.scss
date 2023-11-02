@@ -1,0 +1,19 @@
+@import '/src/styles/mixins';
+@import '/src/styles/colors';
+
+.cards-page{
+  padding: 50px 100px;
+  @include flex-column(24px);
+  align-items: center;
+}
+
+.cards-block{
+  @include flex-column(16px);
+}
+
+.card{
+  @include flex-column(10px);
+  padding: 20px 30px;
+  border-radius: 10px;
+  background-color: $secondary;
+}

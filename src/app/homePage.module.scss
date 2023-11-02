@@ -1,0 +1,7 @@
+.home-page{
+  padding: 30px 50px;
+
+  @media screen and (max-width: 500px) {
+    padding: 20px;
+  }
+}
